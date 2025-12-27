@@ -40,7 +40,7 @@ button {
     gap: 4px;
 }
 #screen{
-    height: 50px;
+    height: 35px;
     justify-content: flex-end;
     align-items: center;
     overflow: hidden;
