@@ -1,13 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
-    <script src="javascript.js"></script>
+    <script src="javascript.js" defer></script>
 </head>
+
 <body>
-    
+    <div id="calculator-container" class="flex-container">
+        <div id="calculator" class="flex-container flex-column black-border">
+
+            <!-- Screen -->
+            <div id="screen" class="flex-container flex-column black-border">
+                <div id="expression" class="display-screen-item flex-container">
+                </div>
+                <div class="flex-container display-screen-item" id="result">0</div>
+            </div>
+
+            <!-- Keyboard -->
+            <div id="keyboard" class="flex-container flex-column">
+
+                <!-- Row 1 -->
+                <div class="row flex-container">
+                    <button id="clear" class="orange-color">C</button>
+                    <button id="backspace" class="orange-color">&#x232B;</button>
+                    <button id="percent" class="orange-color">%</button>
+                    <button id="divide" class="orange-color">÷</button>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="row flex-container">
+                    <button id="seven">7</button>
+                    <button id="eight">8</button>
+                    <button id="nine">9</button>
+                    <button id="multiply" class="orange-color">×</button>
+                </div>
+
+                <!-- Row 3 -->
+                <div class="row flex-container">
+                    <button id="four">4</button>
+                    <button id="five">5</button>
+                    <button id="six">6</button>
+                    <button id="subtract" class="orange-color">−</button>
+                </div>
+
+                <!-- Row 4 -->
+                <div class="row flex-container">
+                    <button id="one">1</button>
+                    <button id="two">2</button>
+                    <button id="three">3</button>
+                    <button id="add" class="orange-color">+</button>
+                </div>
+
+                <!-- Row 5 -->
+                <div class="row flex-container">
+                    <button id="decimal">.</button>
+                    <button id="zero">0</button>
+                    <button id="equals" class="orange-bg">=</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
