@@ -20,13 +20,6 @@ button {
     width: 50px;
     border-radius: 4px;
 }
-.display-screen-item{
-    justify-content: flex-end;
-    overflow: hidden;
-    padding: 0 2px;
-    font-size: 24px;
-    font-weight: 200;
-}
 .flex-container{
     display: flex;
 }
@@ -47,8 +40,13 @@ button {
     gap: 4px;
 }
 #screen{
-    height: 60px;
-    justify-content: space-between;
+    height: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+    padding-right: 2px;
+    padding-left: 2px;
+    font-weight: 200;
 }
 #calculator-container{
     justify-content: center;
